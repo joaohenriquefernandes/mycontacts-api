@@ -32,11 +32,35 @@ class ContactsRepository {
     });
   }
 
+  findByEmail(email) {
+    const user = contacts.find((contact) => contact.email === email);
+
+    return new Promise((resolve) => {
+      resolve(user);
+    });
+  }
+
   remove(id) {
     contacts = contacts.filter((contact) => contact.id !== id);
 
     return new Promise((resolve) => {
       resolve(contacts);
+    });
+  }
+
+  create({ name, email, phone, category_id }) {
+    return new Promise((resolve) => {
+      const newContact = {
+        id: v4(),
+        name,
+        email,
+        phone,
+        category_id,
+      };
+
+      contacts.push(newContact);
+
+      resolve(newContact);
     });
   }
 }
