@@ -6,6 +6,7 @@ My Contacts API  developed on JStack
 
 <div style="display: inline_block">
   <img align="center" alt="Node.js" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Yarn" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/yarn/yarn-original.svg">
   <img align="center" alt="JavaScript" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
   <img align="center" alt="Express" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original-wordmark.svg">
   <img align="center" alt="PostgresSQL" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg">
